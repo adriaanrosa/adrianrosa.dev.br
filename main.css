@@ -1,18 +1,88 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "montaserrat";
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  background-color: #161513;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  background-color: #222222;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-menu a {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: 1s ease-out;
+}
+
+.nav-menu a:hover {
+  background: linear-gradient(to right, #00c6ff, #0077ff, #001aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.avatar {
+  display: flex;
+  height: 12.5rem;
+  width: 12.5rem;
+  background: linear-gradient(to bottom, #ff8660, #8000ff);
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 7.5rem;
+}
+
+.title {
+  display: flex;
+  height: 9.38rem;
+  width: 40.5rem;
+  font-size: 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #00c6ff, #9a33ff, #001aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin: 3.12rem auto;
+}
+
+.subtitle {
+  height: 7.5rem;
+  width: 40.6rem;
+  margin: 0.625rem auto;
+  text-align: center;
+  color: #c5c5c5;
+}
+
+.tecnologias {
+  display: flex;
+  place-content: center;
 }
 
 .footer {
   position: fixed;
   left: 0;
-  padding: 10px;
+  padding: 1rem;
   bottom: 0;
   width: 100%;
-  background-color: rgb(87, 87, 87);
-  color: white;
+  background-color: #222222;
   text-align: center;
+  color: #c5c5c5;
 }
