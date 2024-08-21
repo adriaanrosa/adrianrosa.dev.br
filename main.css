@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+:root {
+  --background-color: #161513;
+  --font-color: #ffffff;
+  --primary-color: #222222;
+}
+
 body {
   box-sizing: border-box;
   text-decoration: none;
   margin: 0;
   padding: 0;
   font-family: "Poppins";
-  background-color: #161513;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  transition: 0.5s;
 }
 
 .site-header {
@@ -14,19 +22,20 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
-  background-color: #222222;
+  background-color: var(--background-color);
+  transition: 0.5s;
 }
 
 .nav-menu ul {
   list-style: none;
   display: flex;
-  gap: 4rem;
+  gap: 6rem;
 }
 
 .nav-menu a {
   display: flex;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--font-color);
   font-size: 1rem;
   transition: 1s ease-out;
 }
@@ -68,7 +77,7 @@ body {
   width: 40.6rem;
   margin: 0.625rem auto;
   text-align: center;
-  color: #c5c5c5;
+  color: var(--font-color);
 }
 
 .tecnologias {
@@ -82,7 +91,28 @@ body {
   padding: 1rem;
   bottom: 0;
   width: 100%;
-  background-color: #222222;
+  background-color: var(--primary-color);
   text-align: center;
-  color: #c5c5c5;
+  color: var(--font-color);
+  transition: 0.5s;
+}
+
+#themeSwitcher {
+  position: absolute;
+  top: 1.5rem;
+  right: 6rem;
+  background-color: var(--background-color);
+  border: 2px solid var(--font-color);
+  color: var(--font-color);
+  padding: 0.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#themeSwitcher:hover {
+  background-color: var(--font-color);
+  color: var(--primary-color);
 }
