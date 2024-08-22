@@ -83,6 +83,7 @@ body {
 .tecnologias {
   display: flex;
   place-content: center;
+  gap: 2rem;
 }
 
 .footer {
