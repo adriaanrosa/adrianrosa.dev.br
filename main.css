@@ -134,8 +134,8 @@ body {
 .tutorial-block {
   background-color: var(--primary-color);
   border-radius: 1.25rem;
-  width: 24.3rem;
-  height: 18.75rem;
+  width: 20rem;
+  height: 16rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
 }
