@@ -15,26 +15,6 @@
   color: transparent;
 }
 
-#themeSwitcher {
-  position: absolute;
-  top: 1.5rem;
-  right: 6rem;
-  background-color: var(--background-color);
-  border: 2px solid var(--font-color);
-  color: var(--font-color);
-  padding: 0.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: 1s;
-}
-
-#themeSwitcher:hover {
-  background-color: var(--font-color);
-  color: var(--primary-color);
-}
-
 .tutorial-container {
   display: flex;
   justify-content: center;

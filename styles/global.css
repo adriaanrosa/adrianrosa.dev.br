@@ -14,3 +14,35 @@ body {
   color: var(--font-color);
   transition: 0.5s;
 }
+
+.avatar {
+  display: flex;
+  height: 12.5rem;
+  width: 12.5rem;
+  background: linear-gradient(to bottom, #ff8660, #8000ff);
+  border-radius: 50%;
+  margin: auto;
+  margin-block: 10rem 3rem;
+}
+
+.title {
+  display: flex;
+  height: 9.38rem;
+  width: 40.5rem;
+  font-size: 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #00c6ff, #9a33ff, #001aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin: auto;
+}
+
+.subtitle {
+  height: 7.5rem;
+  width: 40.6rem;
+  margin: 0.625rem auto;
+  text-align: center;
+  color: var(--font-color);
+}

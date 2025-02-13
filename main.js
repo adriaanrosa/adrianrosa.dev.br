@@ -13,9 +13,9 @@ if (themeSwitcher) {
 
 function toggleTheme() {
   if (main.dataset.theme === "dark") {
-    root.style.setProperty("--background-color", "#F4F4F4");
+    root.style.setProperty("--background-color", "#f2f2f2");
     root.style.setProperty("--font-color", "#333333");
-    root.style.setProperty("--primary-color", "#F4F4F4");
+    root.style.setProperty("--primary-color", "#f2f2f2");
     main.dataset.theme = "light";
     themeSwitcher.innerHTML = '<i class="fas fa-moon"></i>';
   } else {
