@@ -30,7 +30,7 @@ Implementei um botão no topo direito para alternar entre os temas **escuro** e 
 
 1. Clone o repositório:
    ```bash
-     git clone https://github.com/adriaanrosa/adrianrosa.dev.br.git
+   git clone https://github.com/adriaanrosa/adriaanrosa.dev.br.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
@@ -43,6 +43,7 @@ Implementei um botão no topo direito para alternar entre os temas **escuro** e 
 Caso tenha alguma sugestão ou dúvida, entre em contato:
 
 - **Desenvolvedor**: Adrian Crescêncio Rosa
+
 - **GitHub**: [github.com/adriaanrosa](https://github.com/adriaanrosa)
 
 ---
