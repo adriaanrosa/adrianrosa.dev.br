@@ -2,6 +2,7 @@
   --background-color: #161513;
   --font-color: #ffffff;
   --primary-color: #222222;
+  --scroll-color: #ff8660;
 }
 
 body {
@@ -45,4 +46,18 @@ body {
   margin: 0.625rem auto;
   text-align: center;
   color: var(--font-color);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--font-color);
+  border-radius: 10px;
 }
