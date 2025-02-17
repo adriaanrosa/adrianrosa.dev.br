@@ -1,8 +1,8 @@
 .tecnologias {
   display: flex;
   place-content: center;
-  gap: 2rem;
-  padding: 5rem;
+  gap: 3rem;
+  padding-bottom: 10rem;
 
   img {
     width: 60px;
@@ -24,20 +24,18 @@
   display: flex;
   justify-content: center;
   gap: 3rem;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .tutorial-block {
   background-color: var(--primary-color);
   border-radius: 1.25rem;
-  width: 20rem;
+  width: 18rem;
   height: 16rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
 
   h2 {
-    padding-left: 0.7rem;
-    margin: auto;
     text-align: center;
     color: var(--font-color);
   }
@@ -45,11 +43,14 @@
   a {
     display: flex;
     padding-left: 0.5rem;
-    color: #d5491d;
     text-decoration: none;
     place-content: center;
-    padding: 0.5rem;
-    position: relative;
+    padding: 0.2rem;
+    background: linear-gradient(to right, #00c6ff, #001aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
   }
 
   img {
@@ -58,29 +59,10 @@
     object-fit: contain;
     margin: auto;
   }
-}
 
-.tutorial-block .tutorial-block a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #d5491d;
-  transition: width 0.5s ease;
-}
-
-.tutorial-block a:hover::after {
-  width: 100%;
-}
-
-.tutorial-block .jogo-da-velha {
-  background: rgb(197, 197, 197);
-}
-.portal {
-  background: linear-gradient(to right, #082f3a, #091052);
-}
-.nft {
-  background: linear-gradient(to right, #00c6ff, #001aff);
+  .portal,
+  .nft,
+  .jogo-da-velha {
+    background: linear-gradient(to right, #082f3a, #172070);
+  }
 }
