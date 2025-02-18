@@ -2,7 +2,6 @@
   --background-color: #161513;
   --font-color: #ffffff;
   --primary-color: #222222;
-  --scroll-color: #ff8660;
 }
 
 body {
@@ -53,7 +52,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-color);
+  background: var(--scroll-color);
   border-radius: 10px;
 }
 
