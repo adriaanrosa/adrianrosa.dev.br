@@ -1,7 +1,38 @@
-.tecnologias {
+.avatar {
+  display: flex;
+  height: 12.5rem;
+  width: 12.5rem;
+  background: linear-gradient(to bottom, #ff8660, #8000ff);
+  border-radius: 50%;
+  margin: auto;
+  margin-block: 10rem 4rem;
+}
+
+.title {
+  display: flex;
+  height: 9.38rem;
+  width: 40.5rem;
+  font-size: 1.9rem;
+  font-family: var(--font-secondary);
+  text-align: center;
+  background: linear-gradient(to right, #00c6ff, #9a33ff, #001aff);
+  background-clip: text;
+  color: transparent;
+  margin: auto;
+}
+
+.subtitle {
+  height: 7.5rem;
+  width: 40.6rem;
+  margin: 0.625rem auto;
+  text-align: center;
+  color: var(--text-color-primary);
+}
+
+.technologies {
   display: flex;
   place-content: center;
-  gap: 3rem;
+  gap: 2.5rem;
   padding-bottom: 10rem;
 
   img {
@@ -10,30 +41,34 @@
   }
 }
 
-.projects {
+#projects {
   text-align: center;
-  font-size: 3rem;
-  color: var(--font-blue);
+  font-size: 2.5rem;
+  font-family: var(--font-secondary);
+  background: linear-gradient(90deg, #ff8660, #d5491d);
+  background-clip: text;
+  color: transparent;
 }
 
-.tutorial-container {
+.container {
   display: flex;
   justify-content: center;
   gap: 3rem;
   padding: 3rem;
 }
 
-.tutorial-block {
+.work-card {
   background-color: var(--primary-color);
   border-radius: 1.25rem;
   width: 18rem;
   height: 16rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
   h2 {
     text-align: center;
-    color: var(--font-color);
+    color: var(--text-color-primary);
   }
 
   a {
@@ -42,7 +77,10 @@
     text-decoration: none;
     place-content: center;
     padding: 0.2rem;
-    color: var(--font-blue);
+    background: linear-gradient(90deg, #d47609, #db6b01);
+    background-clip: text;
+    color: transparent;
+    transition: 1s ease-in-out infinite alternate;
   }
 
   img {
@@ -59,5 +97,29 @@
       rgba(100, 30, 190, 0.7),
       rgba(0, 10, 150, 0.7)
     );
+  }
+}
+
+.work-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.work-card a:hover {
+  background: linear-gradient(to right, #c24c29, #ff3c00);
+  background-clip: text;
+  color: transparent;
+}
+
+.icons:hover {
+  animation: pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
   }
 }

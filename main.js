@@ -23,14 +23,14 @@ function toggleTheme() {
 function setTheme(theme) {
   if (theme === "dark") {
     root.style.setProperty("--background-color", "#161513");
-    root.style.setProperty("--font-color", "#ffffff");
+    root.style.setProperty("--text-color-primary", "#f1f5f9");
     root.style.setProperty("--primary-color", "#222222");
     main.dataset.theme = "dark";
     themeSwitcher.innerHTML = '<i class="fas fa-sun"></i>';
     localStorage.setItem("theme", "dark");
   } else {
-    root.style.setProperty("--background-color", "#f2f2f2");
-    root.style.setProperty("--font-color", "#333333");
+    root.style.setProperty("--background-color", "#f9f9f9");
+    root.style.setProperty("--text-color-primary", "#333333");
     root.style.setProperty("--primary-color", "#f2f2f2");
     main.dataset.theme = "light";
     themeSwitcher.innerHTML = '<i class="fas fa-moon"></i>';

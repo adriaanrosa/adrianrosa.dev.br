@@ -10,15 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body id="main" data-theme="dark">
-    <header class="site-header">
+    <header class="header">
       <img src="assets/images/letter-a.png" alt="logo" class="logo-a" />
       <nav class="nav-menu">
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#about">Projetos</a></li>
+          <li><a href="#projects">Projetos</a></li>
           <li><a href="#services">Experiência</a></li>
           <li><a href="#contact">Contato</a></li>
-          <button id="themeSwitcher"></button>        
+          <div>
+            <button id="themeSwitcher"></button>    
+          </div>
       </nav>
     </header>
     <article>
@@ -29,28 +31,28 @@
           "Sou estudante de Sistemas de Informação, apaixonado por desenvolvimento web. Tenho experiência com HTML, CSS, JavaScript, Git e Github.
           Criei projetos como um jogo Tic Tac Toe. Gosto de resolver problemas com código e estou sempre buscando aprender mais."
         </div>
-        <div class="tecnologias">
-          <img src="assets/icons/html.svg" alt="tecnologias"/>
-          <img src="assets/icons/css.svg " alt="tecnologias"/>
-          <img src="assets/icons/js.svg" alt="tecnologias" />
-          <img src="assets/icons/bootstrap.svg" alt="tecnologias" />
-          <img src="assets/icons/node.svg" alt="tecnologias" />
+        <div class="technologies">
+          <img src="assets/icons/html.svg" alt="html" class="icons"/>
+          <img src="assets/icons/css.svg " alt="css" class="icons"/>
+          <img src="assets/icons/js.svg" alt="JavaScript" class="icons"/>
+          <img src="assets/icons/bootstrap.svg" alt="bootstrap"class="icons" />
+          <img src="assets/icons/node.svg" alt="node" class="icons" />
         </div>
       </div> 
       <main>
-        <h1 class="projects">Projects</h1>
-        <div class="tutorial-container">
-          <div class="tutorial-block">
+        <h1 id="projects">Projetos</h1>
+        <div class="container">
+          <div class="work-card">
             <img src="assets/images/jogo-da-velha (1).png" alt="jogo da velha" class="card">
               <h2>Game Tic Tac Toe</h2>
               <a href="https://tica-tac-toe.vercel.app/" target="_blank">Ver projeto</a>
           </div>    
-          <div class="tutorial-block" >
+          <div class="work-card" >
             <img src="assets/images/nft.png" alt="site nft" class="card"> 
               <h2>NFT Cube</h2>
               <a href=" https://nft-cube.vercel.app/" target="_blank ">Ver projeto</a>
           </div>  
-          <div class="tutorial-block" >
+          <div class="work-card" >
             <img src="assets/images/news-podcast.png" alt="portal de noticias" class="card"> 
               <h2>Portal de Noticias</h2>
               <a href=" https://portal-de-noticias-gamma.vercel.app/" target="_blank ">Ver projeto</a>
