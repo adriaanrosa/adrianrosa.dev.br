@@ -27,13 +27,14 @@
   margin: 0.625rem auto;
   text-align: center;
   color: var(--text-color-primary);
+  padding-top: 1rem;
 }
 
 .technologies {
   display: flex;
   place-content: center;
   gap: 2.5rem;
-  padding-bottom: 10rem;
+  padding-block: 3rem 10rem;
 
   img {
     width: 60px;
