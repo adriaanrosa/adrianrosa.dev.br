@@ -43,8 +43,8 @@
 
 #projects {
   text-align: center;
+  font-weight: 800;
   font-size: 2.5rem;
-  font-family: var(--font-secondary);
   background: linear-gradient(90deg, #ff8660, #d5491d);
   background-clip: text;
   color: transparent;
