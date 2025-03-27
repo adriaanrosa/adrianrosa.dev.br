@@ -1,145 +1,82 @@
-.avatar {
-  display: flex;
-  height: 12.5rem;
-  width: 12.5rem;
-  background: linear-gradient(to bottom, #ff8660, #8000ff);
-  border-radius: 50%;
-  margin: auto;
-  margin-block: 10rem 4rem;
-}
+main {
+  width: 100%;
+  height: 54rem;
+  background-color: var(--background-color);
 
-.title {
-  display: flex;
-  height: 9.38rem;
-  width: 40.5rem;
-  font-size: 1.9rem;
-  text-align: center;
-  background: linear-gradient(to right, #00c6ff, #9a33ff, #001aff);
-  background-clip: text;
-  color: transparent;
-  margin: auto;
-}
-
-.subtitle {
-  height: 7.5rem;
-  width: 40.6rem;
-  margin: 0.625rem auto;
-  text-align: center;
-  color: var(--text-color-primary);
-  padding-top: 1rem;
-}
-
-.technologies {
-  display: flex;
-  place-content: center;
-  gap: 2.5rem;
-  padding-block: 3rem 10rem;
-
-  img {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-#projects {
-  text-align: center;
-  font-weight: 800;
-  font-size: 2.5rem;
-  background: linear-gradient(90deg, #ff8660, #d5491d);
-  background-clip: text;
-  color: transparent;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  padding: 3rem;
-}
-
-.work-card {
-  background-color: var(--primary-color);
-  border-radius: 1.25rem;
-  width: 18rem;
-  height: 16rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
-  h2 {
-    text-align: center;
-    color: var(--text-color-primary);
-  }
-
-  a {
+  .work {
     display: flex;
-    padding-left: 0.5rem;
-    text-decoration: none;
-    place-content: center;
-    padding: 0.2rem;
-    background: linear-gradient(90deg, #d47609, #db6b01);
-    background-clip: text;
-    color: transparent;
-    transition: 1s ease-in-out infinite alternate;
+    font-size: 1.25rem;
+    font-family: var(--font-subtitle);
+    line-height: 120%;
+    color: var(--text-tertiary);
+    justify-content: center;
+    padding-top: 4.5rem;
   }
 
-  img {
-    width: 100%;
-    height: 70%;
-    object-fit: contain;
-    margin: auto;
-  }
-
-  .card {
-    background: linear-gradient(
-      to right,
-      rgba(0, 150, 190, 0.7),
-      rgba(100, 30, 190, 0.7),
-      rgba(0, 10, 150, 0.7)
-    );
-  }
-
-  .crescer {
-    background: linear-gradient(
-      to right,
-      rgba(0, 128, 0, 0.8),
-      rgba(141, 216, 163, 0.8),
-      rgba(50, 205, 50, 0.8),
-      rgba(144, 238, 144, 0.8)
-    );
-  }
-
-  .jogo {
-    background: linear-gradient(
-      to right,
-      rgba(117, 115, 14, 0.8),
-      rgba(255, 140, 0, 0.8),
-      rgba(255, 165, 0, 0.8),
-      rgba(255, 222, 173, 0.8)
-    );
+  & a {
+    display: flex;
+    font-family: var(--font-family);
+    color: var(--text-secondary);
+    justify-content: center;
+    padding-block: 1rem 72px;
   }
 }
 
-.work-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+.card-container {
+  max-width: 65rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  margin: 0 auto;
 }
 
-.work-card a:hover {
-  background: linear-gradient(to right, #c24c29, #ff3c00);
-  background-clip: text;
-  color: transparent;
+.card {
+  position: relative;
+  width: 20.625rem;
+  height: 17.5rem;
+  background-color: var(--background-card);
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem;
 }
 
-.icons:hover {
-  animation: pulse 0.5s infinite alternate;
+.card:hover {
+  outline: 2px solid #878ea1;
+  transition: 1s ease-in-out;
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
+.card-img {
+  width: 19.125rem;
+  height: 9.75rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 120%;
+  color: var(--text-secondary);
+  padding-block: 1rem 0.5rem;
+}
+
+.card-subtitle {
+  font-size: 0.875rem;
+  font-family: var(--font-sm);
+  line-height: 140%;
+  color: var(text-primary);
+  text-align: justify;
+}
+
+.card a {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 1rem;
+  margin-top: -1rem;
+}
+
+.ancor {
+  width: 1.1rem;
+  height: 1.1rem;
 }

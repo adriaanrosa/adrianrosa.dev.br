@@ -1,0 +1,49 @@
+footer {
+  background-image: url(/assets/images/background-footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 57rem;
+  padding: 8rem 7.5rem 12.5rem 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+
+  & p {
+    color: var(--text-purple);
+    font-family: var(--font-subtitle);
+    font-size: 1.25rem;
+    line-height: 120%;
+  }
+
+  & h1 {
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+  }
+
+  & span {
+    font-family: var(--font-sm);
+    line-height: 140%;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    color: var(--text-primary);
+    font-weight: 400;
+  }
+}
+
+.socialButton:hover {
+  outline: 2px solid #3996db;
+  border-radius: 0.5rem;
+}
+
+.copy {
+  text-align: center;
+  background-color: var(--background-color);
+  padding: 1rem;
+  color: var(--text-purple);
+  font-family: var(--font-sm);
+  font-size: 1.2rem;
+}
