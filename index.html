@@ -6,65 +6,116 @@
     <title>Dev Adrian</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles/index.css" />
-    <link rel="shortcut icon" href="assets/images/letter-a.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="assets/images/logo.webp" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
-  <body id="main" data-theme="dark">
-    <header class="header">
-      <img src="assets/images/letter-a.png" alt="logo" class="logo-a" />
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#services">Experiência</a></li>
-          <li><a href="#contact">Contato</a></li>
-          <div>
-            <button id="themeSwitcher"></button>    
-          </div>
-      </nav>
-    </header>
+  <body>
     <article>
-      <img src="assets/images/Avatar.png" alt="avatar" class="avatar" />
-      <h1 class="title">Essa página está em desenvolvimento, sente-se, pegue um café e aprecie a jornada!</h1>
-      <div>
-        <div class="subtitle">
-          "Sou estudante de Sistemas de Informação, apaixonado por desenvolvimento web. Tenho experiência com HTML, CSS, JavaScript, Git e Github.
-          Criei projetos como um jogo Tic Tac Toe. Gosto de resolver problemas com código e estou sempre buscando aprender mais."
-        </div>
+      <section>
+        <img src="assets/images/photo-adrian.jpeg" alt="avatar" class="avatar" />
+        <p class="title">Hello World! Meu nome é <strong> Adrian Rosa, </strong> e sou</p>
+        <h1>Desenvolvedor Web</h1>
+        <p>
+          Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas
+          através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes
+          para desafios complexos.
+        </p>
         <div class="technologies">
-          <img src="assets/icons/html.svg" alt="html" class="icons"/>
-          <img src="assets/icons/css.svg " alt="css" class="icons"/>
-          <img src="assets/icons/js.svg" alt="JavaScript" class="icons"/>
-          <img src="assets/icons/bootstrap.svg" alt="bootstrap"class="icons" />
-          <img src="assets/icons/node.svg" alt="node" class="icons" />
+          <img src="assets/icons/Tag-1.svg" alt="html" class="icons" />
+          <img src="assets/icons/Tag-2.svg " alt="css" class="icons" />
+          <img src="assets/icons/Tag-3.svg" alt="JavaScript" class="icons" />
+          <img src="assets/icons/Tag.svg" alt="bootstrap" class="icons" />
+          <img src="assets/icons/Tag-5.svg" alt="node" class="icons" />
         </div>
-      </div> 
-      <main>
-        <h1 id="projects">Projetos</h1>
-        <div class="container">
-          <div class="work-card">
-            <img src="assets/images/jogo-da-velha (1).png" alt="jogo da velha" class="jogo">
-              <h2>Jogo da Velha</h2>
-              <a href="https://tica-tac-toe.vercel.app/" target="_blank">Ver projeto</a>
-          </div>    
-          <div class="work-card" >
-            <img src="assets/images/nft.png" alt="site nft" class="card"> 
-              <h2>NFT Cube</h2>
-              <a href=" https://nft-cube.vercel.app/" target="_blank ">Ver projeto</a>
-          </div>  
-          <div class="work-card" >
-            <img src="assets/images/Arvore Crescer.png  " alt="Crescer Soluções" class="crescer"> 
-              <h2>Crescer Soluções</h2>
-              <a href=" https://crescersolucoesfinanceiras.com.br//" target="_blank ">Ver projeto</a>
-          </div>  
-          <div class="work-card" >
-            <img src="assets/images/news-podcast.png" alt="portal de noticias" class="card"> 
-              <h2>Portal de Notícias</h2>
-              <a href=" https://portal-de-noticias-gamma.vercel.app/" target="_blank ">Ver projeto</a>
-          </div>  
-      </main>
+      </section>
+      <a href="#sobre">
+        <img src="assets/icons/arrow.svg" alt="icon arrow" class="arrow" />
+      </a>
     </article>
-    <footer class="footer">© 2025 ADRIAN CRESCÊNCIO ROSA. Todos os direitos reservados.</footer>
-    <script src="main.js"></script>
+    <main>
+      <p class="work" id="sobre">Meu trabalho</p>
+      <a>Veja os projetos em destaque</a>
+      <div class="card-container">
+        <div class="card" id="sobre">
+          <img src="assets/images/jogo-da-velha.jpg" alt="Jogo da velha" class="card-img" />
+          <h2 class="card-title">Jogo da Velha</h2>
+          <p class="card-subtitle">
+            Jogo da Velha para dois jogadores que tentam alinhar três símbolos iguais.
+          </p>
+          <a href="https://tica-tac-toe.vercel.app/" target="_blank">
+            <img src="assets/icons/arrow-right.svg" alt="Arrow" class="ancor" />
+          </a>
+        </div>
+        <div class="card">
+          <img src="/assets/images/Tech-News.png" alt="Tech News" class="card-img" />
+          <h2 class="card-title">Tech News</h2>
+          <p class="card-subtitle">Homepage de um portal de notícias sobre a área de tecnologia.</p>
+          <a href="https://portal-de-noticias-gamma.vercel.app/" target="_blank"
+            ><img src="assets/icons/arrow-right.svg" alt="Arrow" class="ancor"
+          /></a>
+        </div>
+        <div class="card">
+          <img src="assets/images/money.jpg" alt="Jogo da velha" class="card-img" />
+          <h2 class="card-title">Crescer Soluções Financeira</h2>
+          <p class="card-subtitle">
+            Empréstimo que trazem tranquilidade financeira e mais alegria ao povo
+          </p>
+          <a href="https://crescersolucoesfinanceiras.com.br//" target="_blank">
+            <img src="assets/icons/arrow-right.svg" alt="Arrow" class="ancor" />
+          </a>
+        </div>
+        <div class="card" id="sobre">
+          <img src="assets/images/nft.jpeg" alt="nft cube" class="card-img" />
+          <h2 class="card-title">NFT Cube</h2>
+          <p class="card-subtitle">A representação de uma imagem tokenizada do Etherium</p>
+          <a href="https://nft-cube.vercel.app/" target="_blank">
+            <img src="assets/icons/arrow-right.svg" alt="Arrow" class="ancor" />
+          </a>
+        </div>
+      </div>
+      <a href="#footer">
+        <img src="assets/icons/arrow.svg" alt="icon arrow" class="arrow-main" />
+      </a>
+    </main>
+    <footer>
+      <p>Contato</p>
+      <h1>Gostou do meu trabalho?</h1>
+      <span>Entre em contato ou acompanhe as minhas redes sociais!</span>
+      <a href="https://www.linkedin.com/in/adrian-rosa-7338541a2/" target="_blank">
+        <img
+          src="assets/images/buttons/SocialButton.png"
+          alt="button linkedin"
+          class="socialButton"
+        />
+      </a>
+      <a href="https://www.instagram.com/_adriaan_c/" target="_blank">
+        <img
+          src="assets/images/buttons/SocialButton-0.png"
+          alt="button instagram"
+          class="socialButton"
+        />
+      </a>
+      <a href="https://github.com/adriaanrosa" target="_blank">
+        <img
+          src="assets/images/buttons/SocialButton-1.png"
+          alt="button github"
+          class="socialButton"
+        />
+      </a>
+      <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=adryan.rosa280402@gmail.com"
+        target="_blank"
+      >
+        <img
+          src="assets/images/buttons/SocialButton-2.png"
+          alt="button email"
+          class="socialButton"
+        />
+      </a>
+    </footer>
+    <p class="copy" id="footer">&copy; 2025 Adrian Rosa. Todos os direitos reservados.</p>
   </body>
 </html>
