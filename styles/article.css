@@ -65,7 +65,7 @@ section {
   display: flex;
   gap: 2.5rem;
   justify-self: center;
-  margin-top: 6.5rem;
+  margin-block: 6.5rem;
 }
 
 @keyframes pulse {
@@ -81,22 +81,13 @@ section {
 }
 
 .technologies .icons,
-.arrow,
 .avatar,
-.arrow-main {
+.arrow-article {
   transition: transform 0.5s ease;
 }
 
 .technologies .icons:hover,
-.arrow:hover,
 .avatar:hover,
-.arrow-main:hover {
+.arrow-article:hover {
   animation: pulse 1s infinite;
-}
-
-.arrow {
-  cursor: pointer;
-  display: flex;
-  margin: 0 auto;
-  padding-top: 6.5rem;
 }
