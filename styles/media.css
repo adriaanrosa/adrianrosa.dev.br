@@ -1,0 +1,59 @@
+@media (max-width: 430px) {
+  .avatar {
+    height: 6rem;
+    width: 6rem;
+    margin-top: 7rem;
+  }
+
+  section {
+    & h1 {
+      font-size: 2.5rem;
+    }
+
+    .title {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 3rem;
+      font-size: 1.5rem;
+    }
+
+    & p {
+      padding: 1rem;
+      text-align: center;
+    }
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  main {
+    width: 100%;
+    min-height: min-content;
+  }
+
+  .card-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card {
+    width: 80%;
+    max-width: 21rem;
+    padding: 0.75rem;
+  }
+
+  .copy {
+    font-size: 1rem;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
