@@ -1,51 +1,50 @@
 # 🌐 adrianrosa.dev.br
 
-Bem-vindo ao repositório do meu site pessoal! 🚀
+Welcome to the repository of my personal website! 🚀  
+This is the source code of my portfolio, where I share who I am, my skills, and recent projects.
 
-## 📌 Sobre o Projeto
+## 📌 About the Project
 
-Este é o código-fonte do meu portfólio, onde compartilho informações sobre mim, minhas habilidades e projetos. O site foi desenvolvido com **HTML**, **CSS** e **JavaScript**, hospedado na **Vercel** e conta com um modo **dark/light** com alternância de tema.
+This site was built with simplicity, performance, and responsiveness in mind. It features a clean interface with **dark/light mode**, smooth animations, and a personal touch.
 
-## 🛠 Tecnologias Utilizadas
+🔧 Built with:
+- **HTML5** for content structure
+- **CSS3** with a dedicated `media.css` for responsiveness
+- **JavaScript** for dynamic effects and interactivity
+- **Google Fonts** for custom typography
+- **Vercel** for fast and free deployment
 
-- **HTML5** para estruturação
-- **CSS3** (com um arquivo `media.css` para responsividade)
-- **JavaScript** para funcionalidades dinâmicas
-- **Google Fonts** para uma tipografia personalizada
-- **Vercel** para hospedagem
+## ✨ Features
 
-## 📱 Responsividade
+- **Scroll reveal animations** using `IntersectionObserver`
+- **Typewriter effect** for the homepage title
+- **Back to Top button** with smooth scroll
+- **Responsive layout** optimized for **iPhone 15** and various mobile devices
 
-O site foi ajustado para oferecer uma boa experiência no **iPhone 15** e outros dispositivos móveis, com um design **responsivo** que se adapta a diferentes tamanhos de tela.
-
-## 🌙 Modo Dark/Light
-
-Implementei um botão no topo direito para alternar entre os temas **escuro** e **claro**, com ícones de sol e lua para melhor experiência visual.
-
-## 🔗 Acesse o Site
+## 🔗 Visit the Website
 
 ➡️ [adrianrosa.dev.br](https://adrianrosa.dev.br)
 
-## ⚡ Como Executar Localmente
+## ⚡ How to Run Locally
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/adriaanrosa/adriaanrosa.dev.br.git
-   ```
+
 2. Acesse a pasta do projeto:
    ```bash
-   cd Portal-de-Noticias
+   cd adrianrosa.dev.br
    ```
-3. Abra o arquivo `index.html` no navegador.
+3. Open the index.html file in your browser.
 
-## 📬 Contato
+## 📬 Contact
 
-Caso tenha alguma sugestão ou dúvida, entre em contato:
+If you have any suggestions or just want to say hi:
 
-- **Desenvolvedor**: Adrian Crescêncio Rosa
+- **Developer**: Adrian Crescêncio Rosa
 
 - **GitHub**: [github.com/adriaanrosa](https://github.com/adriaanrosa)
 
 ---
 
-Projeto desenvolvido e hospedado com ❤️ por Adrian Crescêncio Rosa.
+Crafted with 💻, ☕, and passion by Adrian Crescêncio Rosa
