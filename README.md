@@ -31,7 +31,7 @@ This site was built with simplicity, performance, and responsiveness in mind. It
    ```bash
    git clone https://github.com/adriaanrosa/adriaanrosa.dev.br.git
 
-2. Acesse a pasta do projeto:
+2. Navigate to the project folder:
    ```bash
    cd adrianrosa.dev.br
    ```
