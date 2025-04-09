@@ -1,5 +1,6 @@
 main {
   width: 100%;
+  flex: 1;
   height: 54rem;
   background-color: var(--background-color);
 
