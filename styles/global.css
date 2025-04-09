@@ -29,3 +29,31 @@ body {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+#btnTopo {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--background-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 999;
+  border: 2px solid var(--text-tertiary);
+}
+
+#btnTopo:hover {
+  background-color: var(--background-card);
+  transform: translateY(-4px);
+}
+
+#btnTopo.show {
+  opacity: 1;
+  visibility: visible;
+}
