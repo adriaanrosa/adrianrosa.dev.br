@@ -1,3 +1,267 @@
+@media (max-width: 1024px) {
+  .avatar {
+    height: 9rem;
+    width: 9rem;
+    margin-top: 9rem;
+  }
+
+  section {
+    & h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .title {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      font-size: 1.75rem;
+      text-align: center;
+    }
+
+    & p {
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 1.125rem;
+    }
+  }
+
+  .technologies {
+    display: flex;
+    justify-items: center;
+    gap: 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .arrow-article {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+
+    & .work {
+      font-size: 2rem;
+    }
+
+    & a {
+      padding-bottom: 2rem;
+    }
+
+    & .card-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      gap: 1.5rem;
+      padding-block: 5rem;
+    }
+
+    & .card {
+      width: 100%;
+      padding: 0.875rem;
+    }
+
+    & .card-img {
+      width: auto;
+      height: 9rem;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+  }
+
+  .copy {
+    font-size: 1.125rem;
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 1.25rem;
+    text-align: center;
+    padding-block: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .avatar {
+    height: 9rem;
+    width: 9rem;
+    margin-top: 9rem;
+  }
+
+  section {
+    & h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .title {
+      justify-content: center;
+      padding: 2rem;
+      font-size: 1.75rem;
+      text-align: center;
+    }
+
+    & p {
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.125rem;
+    }
+  }
+
+  .technologies {
+    justify-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+
+    & .work {
+      font-size: 2rem;
+    }
+
+    & a {
+      padding-bottom: 2rem;
+    }
+
+    & .card-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      gap: 1.5rem;
+      padding-block: 5rem;
+    }
+
+    & .card {
+      width: 100%;
+      padding: 0.875rem;
+    }
+
+    & .card-img {
+      width: auto;
+      height: 8rem;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    padding-block: 8rem;
+    text-align: center;
+    & p {
+      padding-block: 1rem;
+    }
+    & img {
+      width: 30rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .avatar {
+    height: 7rem;
+    width: 7rem;
+    margin-top: 5rem;
+  }
+
+  section {
+    & h1 {
+      font-size: 2.75rem;
+      text-align: center;
+    }
+
+    .title {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 2.5rem;
+      font-size: 1.625rem;
+      text-align: center;
+    }
+
+    & p {
+      padding: 0.875rem 1.25rem;
+      text-align: center;
+      font-size: 1.0625rem;
+      display: wrap;
+      flex-wrap: wrap;
+    }
+  }
+
+  .arrow-article {
+    display: none;
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+
+    & .work {
+      font-size: 2rem;
+    }
+
+    & a {
+      padding-bottom: 2rem;
+    }
+
+    & .card-container {
+      display: wrap;
+      flex-wrap: wrap;
+      justify-items: center;
+      padding-block: 2rem;
+    }
+
+    & .card {
+      width: 45vw;
+      padding: 0.785rem;
+    }
+
+    & .card-img {
+      width: auto;
+      height: 8rem;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    padding-block: 7rem;
+    text-align: center;
+
+    & img {
+      width: 20rem;
+    }
+
+    & p {
+      padding-block: 1.5rem;
+    }
+  }
+}
+
+.copy {
+  font-size: 1rem;
+  text-align: center;
+}
+
 @media (max-width: 430px) {
   .avatar {
     height: 6rem;
@@ -7,7 +271,7 @@
 
   section {
     & h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       text-align: center;
     }
 
@@ -20,8 +284,8 @@
     }
 
     & p {
-      padding: 0.75rem 1rem;
-      text-align: center;
+      padding: 0.5rem;
+
       font-size: 1rem;
     }
   }
@@ -40,28 +304,34 @@
   main {
     width: 100%;
     height: auto;
-    padding: 1rem;
-  }
+    padding: 1.5rem;
 
-  .card-container {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 0 1rem;
-  }
+    & .work {
+      font-size: 1.5rem;
+    }
 
-  .card {
-    width: 100%;
-    max-width: 22rem;
-    padding: 1rem;
-  }
+    & a {
+      padding-bottom: 2rem;
+    }
 
-  .copy {
-    font-size: 1rem;
-    text-align: center;
-    padding: 1rem;
+    & .card-container {
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      gap: 1.5rem;
+      padding-block: 3rem;
+    }
+
+    & .card {
+      width: 80vw;
+      padding: 0.875rem;
+    }
+
+    & .card-img {
+      width: auto;
+      height: 8rem;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
   }
 
   footer {
@@ -69,9 +339,132 @@
     height: auto;
     padding: 1rem;
     text-align: center;
+    padding: 3rem;
+    padding-bottom: 6rem;
+  }
 
-    & img {
-      width: 95%;
+  .copy {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .avatar {
+    height: 15rem;
+    width: 15rem;
+    margin-top: 10rem;
+  }
+
+  section {
+    text-align: center;
+    gap: 3rem;
+    & h1 {
+      font-size: 7rem;
     }
+
+    .title {
+      font-size: 2.5rem;
+    }
+
+    & p {
+      font-size: 1.75rem;
+    }
+
+    .arrow-article {
+      width: 2.5rem;
+    }
+  }
+
+  .technologies {
+    display: flex;
+    gap: 2rem;
+    justify-items: center;
+    margin-block: 3rem;
+  }
+
+  main {
+    width: auto;
+    height: auto;
+
+    .work {
+      font-size: 3rem;
+      padding-block: 5rem 2rem;
+    }
+
+    & a {
+      line-height: 120%;
+      font-size: 2rem;
+      padding-block: 1.5 10rem;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin: auto;
+    }
+
+    .card {
+      position: relative;
+      width: 32rem;
+      height: 22rem;
+      background-color: var(--background-card);
+      border-radius: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      padding: 0.625rem;
+    }
+    .card-img {
+      width: auto;
+      height: 13rem;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      padding-block: 1rem 0.5rem;
+    }
+
+    .card-subtitle {
+      font-size: 1.125rem;
+      text-align: justify;
+    }
+
+    .arrow-article {
+      padding-block: 10rem;
+      width: 2.5rem;
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 15rem;
+    text-align: center;
+
+    & p {
+      font-size: 3rem;
+    }
+
+    & h1 {
+      font-size: 2rem;
+      padding: 3rem;
+    }
+
+    & span {
+      font-size: 2rem;
+    }
+    & img {
+      width: 40rem;
+    }
+  }
+
+  .copy {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
   }
 }

@@ -48,7 +48,7 @@ main {
 }
 
 .card-img {
-  width: 19.125rem;
+  width: auto;
   height: 9.75rem;
   border-radius: 0.5rem;
   object-fit: cover;
