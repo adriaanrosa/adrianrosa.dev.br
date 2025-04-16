@@ -81,13 +81,11 @@ section {
 }
 
 .technologies .icons,
-.avatar,
-.arrow-article {
+.avatar {
   transition: transform 0.5s ease;
 }
 
 .technologies .icons:hover,
-.avatar:hover,
-.arrow-article:hover {
+.avatar:hover {
   animation: pulse 1s infinite;
 }
